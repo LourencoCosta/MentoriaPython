@@ -1,0 +1,11 @@
+Desafío 1;
+
+1 - Fazer um script que consulta uma API Publica de CEPs e exibe as informações retornadas pela API
+Informações:
+    1 - Url da API sugerida: https://viacep.com.br/ws/CEP_A_SER_PESQUISADO/json/unicode/
+    2 - Será necessária a utilização de biblioteca para realização de requisições web. use a biblioteca "requests"
+
+Adicionais:
+    1 - Formatar o retorno da API para que informação apareça escrita da seguinte forma: 
+        Resultado esperado:  "Logradouro: Rua Jovenal Fernandes, Bairro: Conjunto Habitacional Parque da Floresta, Cidade: Campinas, Estado: SP, CEP: 13058-800". use a biblioteca chamada json
+    2 - Tratar condição em que um CEP invalido for enviado. DICA: USE O CÒDIGO DO ERRO RECEBIDO PARA TRATAR A INFORMAÇÂO

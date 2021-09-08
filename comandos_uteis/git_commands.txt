@@ -1,0 +1,35 @@
+
+#Sequencia para criação de repositório que existe apenas localmente (esses passos transformarão a sua pasta em um repositório github).
+echo "# <nome_projeto>" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/<seu_user>/<nome_projeto>.git
+git push -u origin main
+
+
+# Sequencia de passos quando vc já tem um repositório git criado
+git remote add origin https://github.com/<seu_user>/<nome_projeto>.git
+git branch -M main
+git push -u origin main
+
+git remote add origin https://github.com/LourencoCosta/MentoriaPython.git
+
+#comandos uteis mais utilizados:
+Obs: Os comandos só funcionarão se vc executa-los dentro de uma pasta já configurada com o git.
+
+git status => Comando utilzado para exibir tudo o que foi alterado no projeto.
+git checkout <nome_do_arquivo> => comando para desfazer tudo que foi feito em um unico arquivo e volta-lo para a mesma versão que está no repositório remoto.
+git checkout * => comando para desfazer tudo que foi feito em todos os arquivos e volta-lo para a mesma versão que está no repositório remoto.
+
+git branch -a => Comando utilizado para exibir qual branch você esta utilizando.
+git add <nome_arquivo> => comando utilizado para selecionar um unico arquivo que foi alterado para ser commitado.
+git add * => comando utilizado para selecionar todos os aquivos que possuem alterações para serem commitados
+git commit -m "<Mensagem do commit>" => Comando utilizado para commitar (efetivar as alterações que vc fez localmente).
+git push => comando utilizado para enviar tudo o que está commitado localmente para o repositório remoto, onde todos podem ver.
+
+
+
+
+

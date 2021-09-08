@@ -1,0 +1,17 @@
+#executar um script python sem argumentos.
+python <nome_arquivo>
+
+#executar um script python com argumentos.
+python <nome_arquivo> <arg 1> <arg 2> <arg ...> <arg n>
+
+#criar ambiente virutual (linux)
+virtualenv <nome_do_ambiente_virtual>
+
+#acessar ambiente virtual (linux)
+source /<nome_do_ambiente_virtual>/bin/activate
+
+#instalar biblioteca em ultima versão
+pip install <nome_biblioteca>
+
+#instalar biblioteca em versão especifica
+pip install <nome_biblioteca>==<versao>

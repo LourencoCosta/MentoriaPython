@@ -1,0 +1,18 @@
+Desafio 2;
+
+1 - Crie um script em Python que leia o arquivo csv "lista_de_nomes.csv" e exiba os conteúdo do arqivo na tela.
+    informações: 
+        - Existem bibliotecas diferentes que podem ser usadas para ler o arquivo a minha sugestão é que utilizem a biblioteca chamada "Open", se tudo estiver certo no seu ambiente, você conseguirá utiliza-la sem precisar importa-la, caso receba algum erro me informe:
+          documentação disponível em: https://www.w3schools.com/python/python_file_handling.asp
+        - Você precisará fazer uso de manipulação de strings 
+            consulte o link para demais informações: https://www.w3schools.com/python/ref_string_strip.asp
+        - Você precisará fazer uso de laço de repetição 
+            consulte o link para demais informações: https://www.w3schools.com/python/python_for_loops.asp
+        - Sugestão: Utilize o conceito de template string comentado no exercicio anterior.
+
+Adicionais:
+    1 - Após ler os dados do arquivo transforme a lista obtida em uma lista de objetos json e imprima o resultado na tela:
+        Dica 1 : Você precisara utilizar a biblioteca chamada "json", para fazer a conversão da lista. 
+        consulte: https://www.w3schools.com/python/python_json.asp
+        Dica 2 : Você precisará da 
+    2 - Pegue a lista de objetos json gerada e grave a mesma lista em um novo arquivo com a extensão .json

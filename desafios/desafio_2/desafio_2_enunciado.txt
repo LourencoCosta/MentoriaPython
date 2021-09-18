@@ -14,5 +14,5 @@ Adicionais:
     1 - Após ler os dados do arquivo transforme a lista obtida em uma lista de objetos json e imprima o resultado na tela:
         Dica 1 : Você precisara utilizar a biblioteca chamada "json", para fazer a conversão da lista. 
         consulte: https://www.w3schools.com/python/python_json.asp
-        Dica 2 : Você precisará da 
+        
     2 - Pegue a lista de objetos json gerada e grave a mesma lista em um novo arquivo com a extensão .json

@@ -1,0 +1,5 @@
+{
+    "client": "google",
+    "metric": "[server_error, client_error, latency]",
+    "custume_id": "google123abc"
+}

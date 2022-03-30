@@ -1,0 +1,11 @@
+{
+  "valueInputOption": "USER_ENTERED",
+  "data": [
+    {
+      "range": "CUSTOMER_NAME!A1:B2",
+      "majorDimension": "ROWS",
+      "values": [
+      ]
+    }
+  ]
+}

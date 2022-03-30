@@ -1,0 +1,11 @@
+[
+    {
+        "replaceAllText": {
+            "containsText": {
+                "text": "presentation.title",
+                "matchCase": true
+            },
+            "replaceText": ""
+        }
+    }
+]

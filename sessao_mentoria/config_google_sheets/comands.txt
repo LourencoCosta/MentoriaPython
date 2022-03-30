@@ -1,0 +1,11 @@
+pip install requests
+pip install google-api-python-client
+pip install google_auth_oauthlib
+
+# Criar projeto no console do google utilizando uma conta de sua preferencia.
+# APIs e serviços => Credenciais => +Criar Credenciais => Criar ID do cliente do OAuth
+#Configurar tela de conssentimento => Externo
+
+#Configurar APP
+#APP para computador
+
